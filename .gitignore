@@ -1,0 +1,9 @@
+bin
+out
+res/environments
+res/models
+res/normals
+res/PBR
+.settings
+.classpath
+.project
