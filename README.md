@@ -1,6 +1,8 @@
-# Description
+# Ray marching demo
 
-This is a software ray-marching renderer I made primarily to learn Java. It has a bunch of stuff that I played around with, so it's a bit bloated. This is a continuation of a previous [renderer I made in C](https://github.com/martzin23/bitmap-export-raymarcher). Created in March 2024.
+## Description
+
+This is a software ray-marching renderer I made primarily to learn Java. It has a bunch of stuff that I played around with. This is a continuation of a previous [renderer I made in C](https://github.com/martzin23/bitmap-export-raymarcher). Created in March 2024.
 
 The main features are:
 - Ray marching rendering with a movable camera with K&M
@@ -13,9 +15,9 @@ The main features are:
 - Importing a obj file (not optimized)
 - Displaying a heightmap on a plane
 
-# Usage
+## Usage
 
-## Controls
+### Controls
 
 - Basic
     - `WASDQE` - movement
@@ -48,7 +50,7 @@ The main features are:
     - `Shift` - push selected body
     - `Alt` - pull selected body
 
-## Configuration
+### Configuration
 
 A lot of stuff is only configurable by editing constants in the code or by commenting/uncommenting lines. Some of the notable classes to edit are: 
 - `Bodies.initBodyCollection()` - contains some presets for scenes
@@ -57,25 +59,25 @@ A lot of stuff is only configurable by editing constants in the code or by comme
     - `volume` is a 3D image used for the volume shading mode
 - `Shader` - contains important constants for raymarching and shading
 
-# Some renders
+## Some renders
 
-## Reflections and phong lighting
+### Reflections and phong lighting
 ![1712049584943.jpg](/renders/1712049584943.jpg)
 
-## Imported obj model
+### Imported obj model
 ![1713803719975.jpg](/renders/1713803719975.jpg)
 
-## Heightmap displaced plane
+### Heightmap displaced plane
 ![1752066514355.jpg](/renders/1752066514355.jpg)
 
-## Heightmap with textures
+### Heightmap with textures
 ![1712037077147.jpg](/renders/1712037077147.jpg)
 
-## Volume from 3D image
+### Volume from 3D image
 ![1752062481352.jpg](/renders/1752062481352.jpg)
 
-## Indirect lighting
+### Indirect lighting
 ![1713808181099.jpg](/renders/1713808181099.jpg)
 
-## PBR
+### PBR
 ![1714635593069.jpg](/renders/1714635593069.jpg)
