@@ -1,6 +1,6 @@
 # Description
 
-This is a software ray-marching renderer I made primarily to learn java. It has a bunch of stuff that I played around with, so its a bit bloated. This is a continuation of a previous [renderer I made in C](https://github.com/martzin23/bitmap-export-raymarcher). Created in March 2024.
+This is a software ray-marching renderer I made primarily to learn Java. It has a bunch of stuff that I played around with, so it's a bit bloated. This is a continuation of a previous [renderer I made in C](https://github.com/martzin23/bitmap-export-raymarcher). Created in March 2024.
 
 The main features are:
 - Ray marching rendering with a movable camera with K&M
@@ -30,10 +30,10 @@ The main features are:
     - `G/H/J + scroll` - edit body size
     - `B/N/M + scroll` - edit body color
     - `F + scroll` - edit body emission (can be negative for darkness sources)
-- Body managment
+- Body management
     - `I` - create sphere
     - `O` - create box
-    - `K` - create elipse
+    - `K` - create ellipse
     - `L` - create sphere with velocity marker
     - `Backspace` - delete selected body
 - Shading modes
@@ -62,7 +62,7 @@ A lot of stuff is only configurable by editing constants in the code or by comme
 ## Reflections and phong lighting
 ![1712049584943.jpg](/renders/1712049584943.jpg)
 
-## Inported obj model
+## Imported obj model
 ![1713803719975.jpg](/renders/1713803719975.jpg)
 
 ## Heightmap displaced plane
